@@ -27,11 +27,11 @@ df=pd.read_excel('data.xlsx', sheet_name='Sheet1')
 #st.sidebar.image("data/logo1.png",caption="Online Analytical")
 
 #2. switcher
-st.sidebar.header("Tolong Saring di Sini:")
+st.sidebar.header("Filter di Sini:")
 state= st.sidebar.selectbox(
     "Pilih Negara:",
     options=df["State"].unique(),
-    help="Where business is allocated",   
+    help="Tempat Bisnis Teralokasikan",   
 )
 region = st.sidebar.selectbox(
     "Pilih Zona:",

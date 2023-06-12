@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 #pip install -U scikit-learn
 
 st.set_page_config(page_title="Descriptive Analytics ", page_icon="📈", layout="wide")  
-st.subheader("⏱ Loan Prediction")
+st.subheader("⏱ Loan Pyoelrediction")
 st.write("choose what type of business you expect to do, choose the location and the state you live in and then check the probability of getting a loan")
 st.markdown("##")
  

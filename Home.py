@@ -29,23 +29,23 @@ df=pd.read_excel('data.xlsx', sheet_name='Sheet1')
 #2. switcher
 st.sidebar.header("Please Filter Here:")
 state= st.sidebar.selectbox(
-    "Select State:",
+    "Pilih Negara:",
     options=df["State"].unique(),
     help="Where business is allocated",   
 )
 region = st.sidebar.selectbox(
-    "Select Zone:",
+    "Pilih Zona:",
     options=df["Region"].unique(),
     help="segment within a Region"  
 )
 location = st.sidebar.radio(
-    "Select  Location:",
+    "Pilih Lokasi:",
     options=df["Location"].unique(),
     help="Urban or Rural areas"
      
 )
 construction = st.sidebar.radio(
-    "select Facility :",
+    "Pilih Fasilitas:",
     options=df["Construction"].unique(),
     help="goods or services"
 )
@@ -89,9 +89,9 @@ try:
   st.dataframe(df_selection[shwdata],use_container_width=True
   )
  
- df_selection['State'].replace(['Dodoma','Kigoma','Iringa','Mwanza','Dar es Salaam','Kilimanjaro','Arusha'],[1,2,3,4,5,6,7],inplace=True)
- df_selection['Location'].replace(['Urban','Rural'],[1,2],inplace=True)
- df_selection['Region'].replace(['East','Midwest','Northeast','Central'],[1,2,3,4],inplace=True)
+ df_selection['Negara'].replace(['Dodoma','Kigoma','Iringa','Mwanza','Dar es Salaam','Kilimanjaro','Arusha'],[1,2,3,4,5,6,7],inplace=True)
+ df_selection['Location'].replace(['Kota','Desa'],[1,2],inplace=True)
+ df_selection['Region'].replace(['Timur','Barat Tengah','Timur Laut','Tengah'],[1,2,3,4],inplace=True)
  df_selection['Construction'].replace(['Frame','Fire Resist','Masonry','Metal Clad'],[1,2,3,4],inplace=True)
 
  X=df_selection.drop(columns=['BusinessType'])

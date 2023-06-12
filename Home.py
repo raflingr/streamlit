@@ -19,7 +19,7 @@ st.markdown("##")
  
 #for database use these two commented lines
 #result = view_all_data()
-#df = pd.DataFrame(result,columns=["Policy","Expiry","Location","State","Region","Investment","Construction","BusinessType","Earthquake","Flood","Rating","id"])
+#df = pd.DataFrame(result,columns=["Peraturan","Kadaluarsa","Lokasi","Negara","Provinsi","Investasi","Konstruksi","Tipe Bisnis","Ketidakseimbangan","Flood","Rating","id"])
 
 #for excel use this line
 df=pd.read_excel('data.xlsx', sheet_name='Sheet1')
@@ -41,13 +41,13 @@ region = st.sidebar.selectbox(
 location = st.sidebar.radio(
     "Pilih Lokasi:",
     options=df["Location"].unique(),
-    help="Urban or Rural areas"
+    help="Area Kota atau Desa"
      
 )
 construction = st.sidebar.radio(
     "Pilih Fasilitas:",
     options=df["Construction"].unique(),
-    help="goods or services"
+    help="Barang atau Jasa"
 )
 
 
@@ -68,7 +68,7 @@ fig_investment=px.bar(
        x="State",
        y=investment_by_business_type.index,
        orientation="h",
-       title=" Investment by Business Type",
+       title=" Investasi Berdasarkan Tipe Bisnis",
        color_discrete_sequence=["#0083B8"]*len(investment_by_business_type),
        template="plotly_white",
     )

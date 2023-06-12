@@ -90,9 +90,9 @@ try:
   )
  
  df_selection['Negara'].replace(['Dodoma','Kigoma','Iringa','Mwanza','Dar es Salaam','Kilimanjaro','Arusha'],[1,2,3,4,5,6,7],inplace=True)
- df_selection['Location'].replace(['Kota','Desa'],[1,2],inplace=True)
- df_selection['Region'].replace(['Timur','Barat Tengah','Timur Laut','Tengah'],[1,2,3,4],inplace=True)
- df_selection['Construction'].replace(['Frame','Fire Resist','Masonry','Metal Clad'],[1,2,3,4],inplace=True)
+ df_selection['Lokasi'].replace(['Kota','Desa'],[1,2],inplace=True)
+ df_selection['Provinsi'].replace(['Timur','Barat Tengah','Timur Laut','Tengah'],[1,2,3,4],inplace=True)
+ df_selection['Konstruksi'].replace(['Frame','Fire Resist','Masonry','Metal Clad'],[1,2,3,4],inplace=True)
 
  X=df_selection.drop(columns=['BusinessType'])
  y=df_selection.drop(columns=['Location',  'State',  'Region',  'Investment',  'Construction'])

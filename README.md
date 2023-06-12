@@ -1,0 +1,7 @@
+# DecisionTree-Streamlit![7](https://github.com/shamiraty/DecisionTree-Streamlit/assets/129072179/760e2ab2-30c7-489c-976e-1e2219e55eef)
+![19](https://github.com/shamiraty/DecisionTree-Streamlit/assets/129072179/f73bc718-19e1-4427-b25f-1a653e9a43ed)
+![17](https://github.com/shamiraty/DecisionTree-Streamlit/assets/129072179/e79bd6b4-acfc-40a5-8d4c-90155711cbc4)
+![10](https://github.com/shamiraty/DecisionTree-Streamlit/assets/129072179/be4273cf-350c-4dfb-9c84-2a645436515c)
+![11](https://github.com/shamiraty/DecisionTree-Streamlit/assets/129072179/4a402f10-db07-485d-ad75-f3b375b8c220)
+![12](https://github.com/shamiraty/DecisionTree-Streamlit/assets/129072179/a9d11cc1-b21c-4511-840f-adf38db60bba)
+![13](https://github.com/shamiraty/DecisionTree-Streamlit/assets/129072179/4aedac80-c828-41cf-b206-3e5b2cc2f3f0)

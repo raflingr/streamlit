@@ -11,7 +11,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 #pip install -U scikit-learn
 
-st.set_page_config(page_title="Descriptive Analytics ", page_icon="📈", layout="wide")  
+st.set_page_config(page_title="Peminjaman Rafli 085 ", page_icon="📈", layout="wide")  
 st.subheader("⏱ Prediksi Peminjaman")
 st.write("Pilih jenis bisnis yang kamu inginkan, pilih lokasi dan daerah tempat kamu tinggal, kemudian cek probabilitas untuk mendapat pinjaman")
 st.markdown("##")
